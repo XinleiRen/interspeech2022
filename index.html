@@ -24,13 +24,17 @@
   <hr style="height:1px;border:none;border-top:1px solid #555555; width:100%">
 
   <h2>Abstract</h2>
-  Device coloration and room reverberation are two main factors that degrade the speech quality of user generated contents. 
-  Although the conventional speech enhancement can remove the distortions introduced by noise and late reverberation signals, 
-  the device coloration and early reverberation distortion is still untouched and the quality of enhanced speech is much lower 
-  than that of high-quality speech. In this paper, a neural network based device decoloration and dereverberation system is 
-  proposed for high-quality speech restoration. The results show that the proposed method achieves significantly improvements 
-  on various objective metrics and subjective MOS score. The robustness of proposed system could also be demonstrated on real 
-  recordings with unseen devices.
+  Device coloration and room reverberation are two main factors that degrade the speech quality of user generated 
+  contents. Here, device coloration refers to the timbre difference between the original high-quality audio signal 
+  and the version captured by a low-quality recording hardware. The commonly used speech enhancement systems only 
+  remove the distortions introduced by noise and late reverberation signals, the device coloration and early reverberation 
+  distortions are untouched and the quality of enhanced speech is much lower than that of high-quality speech. In 
+  this paper, a neural network-based device decoloration and dereverberation system is proposed. This system directly 
+  estimates the original high-quality speech without any room or device related distortions, which has not been thoroughly 
+  investigated in the existing literature as far as we know. The results show that the proposed method achieves significant 
+  improvements than the baseline systems on various objective metrics and subjective MOS score. The robustness of proposed 
+  system could also be demonstrated on real recordings with unseen devices. Samples of restored speech clips can be found 
+  from https://xinleiren.github.io/interspeech2022/index.html.
   <hr style="height:1px;border:none;border-top:1px solid #555555; width:100%">
 
   <h2>System Architecture</h2>
