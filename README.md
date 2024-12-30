@@ -1,1 +1,1 @@
-"HIGH QUALITY SPEECH RESTORATION FROM DEVICE COLORATED AND REVERBERATED SPEECH" submitted to interspeech2022
+"High Quality Speech Restoration from Device Colorated and Reverberated Speech" submitted to interspeech2022
